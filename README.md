@@ -40,3 +40,5 @@ https://git-scm.com/download
 * `git rm nomearquivo.extensao`
 * `git mv nomearquivo.extensao novonomearquivo.extensao`
 * `git mv nomearquivo.extensao novapasta/nomearquivo.extensao`
+* `git restore nomearquivo.extensao`
+* `git checkout logdocomit-- nomearquivo.extensao`// recuperar um arquivo
