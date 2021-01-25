@@ -39,3 +39,4 @@ https://git-scm.com/download
 * `git pull` // puxa do repositório remoto
 * `git rm nomearquivo.extensao`
 * `git mv nomearquivo.extensao novonomearquivo.extensao`
+* `git mv nomearquivo.extensao novapasta/nomearquivo.extensao`
