@@ -25,14 +25,15 @@ https://git-scm.com/download
 - [x] Você precisa recuperar algo deletado.
 
 * `git init` // inicia a linha do tempo
-* `git add` // adiciona ou atualiza mudanças para irem para a linha do tempoo
-* `git commit` // adiciona um ponto na linha do tempo
-* `git log` // visualiza os pontos na linha do tempo / commit
+* `git add nomearquivo.extensao` ou só `git add` para todos os arquivos no diretório// adiciona ou atualiza mudanças para irem para a linha do tempoo
+* `git commit -m "Mensagem descrevendo a mudança"` // adiciona um ponto na linha do tempo
+* `git log` // visualiza os pontos na linha do tempo / vizualiza todos os commit
 * `git status` // informa o estado das alterações do nosso projeto
-* `git show` // apresenta determinado ponto na história
-* `git branch` // gerenciar novas linhas do tempo
-* `git checkout` // manipula as linhas do tempo
-* `git merge` // unir linhas do tempo
+* `git show`para a ultima alteração ou `git show numerodocomitespecifico` // mostra o que foi alterado
+* `git branch nomedalinhadotempo` para criar uma linha do tempo ou `git branch nomedalinhadotempo -D` para deletar essa linha do tempo// gerenciar novas linhas do tempo
+* `git checkout nomedabranch` // manipula as linhas do tempo
+* `git merge nomedabranch` // unir a linha do tempo com a especificada
+* `git remote add origin urlDoRepositorioNoGitHub` // Conectar ao repositório do github
 * `git push` // envia alterações locais para o repositório remoto
-* `git clone` // clonar um projeto / repositório
+* `git clone urlDoreponogithub` // clonar um projeto / repositório
 * `git pull` // puxa do repositório remoto
