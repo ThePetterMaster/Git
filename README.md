@@ -28,6 +28,8 @@ https://git-scm.com/download
 * `git add nomearquivo.extensao` ou só `git add .` para todos os arquivos no diretório ou `git add .extencao` para arquivos com extenção específica  // adiciona ou atualiza mudanças para irem para a linha do tempoo
 * `git commit -m "Mensagem descrevendo a mudança"` // adiciona um ponto na linha do tempo
 * `git log` // visualiza os pontos na linha do tempo / vizualiza todos os commit
+* `git log --oneline` // visualiza os pontos na linha do tempo RESUMIDO / vizualiza todos os commit RESUMIDO
+* `git log -p` // visualiza os pontos na linha do tempo DETALHADO / vizualiza todos os commit DETALHADO
 * `git status` // informa o estado das alterações do nosso projeto
 * `git show`para a ultima alteração ou `git show numerodocomitespecifico` // mostra o que foi alterado
 * `git branch nomedalinhadotempo` para criar uma linha do tempo ou `git branch nomedalinhadotempo -D` para deletar essa linha do tempo// gerenciar novas linhas do tempo
